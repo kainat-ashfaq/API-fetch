@@ -1820,7 +1820,7 @@ dropdown.addEventListener("change", function () {
       for (let j = 0; j < products[i].reviews.length; j++) {
         if (products[i].title == selectValue) {
           var heading = document.getElementById("heading");
-          heading.innerHTML = selectValue;
+          heading.innerHTML = `${selectValue}<img src="src/img/${selectValue}.png">`;
           var card = document.createElement("div");
           card.className = "card"; // add a class to the card element
           card.innerHTML = `
