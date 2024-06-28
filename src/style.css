@@ -102,3 +102,21 @@ img{
     width: 200px;
     height: 200px;
 }
+@media screen and (max-width: 768px) {
+  .main-div{
+    flex-direction: column;
+  }
+  .card{
+    width: 80%;
+    margin: 2% 0;
+    height: auto;
+    padding: 7px;
+  }
+  .heading{
+    font-size: 25px;
+    margin-top: 7%;
+  }
+  .tittle{
+   font-size: 16px
+  }
+}
